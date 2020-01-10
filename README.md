@@ -78,4 +78,5 @@ You should be getting blinking LEDs when you run this code.
 
 ![](pic2.jpg)
 
-
+This project was made by Nand Vinchhi for the purpose of GCI 2019.
+Circuit diagrams drawn with [circuit-diagram.org](https://www.circuit-diagram.org/)
