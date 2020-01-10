@@ -54,7 +54,7 @@ pin2 = 3 # GPIO pin 3
 set_mode(pi, pin1, PiGPIO.OUTPUT) 
 set_mode(pi, pin2, PiGPIO.OUTPUT)
 # ^ initialization
-```
+``` abc123
 
 Now we shall use a for loop to implement the blinking LEDs
 
