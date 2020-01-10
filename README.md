@@ -6,17 +6,17 @@ You will require a Raspberry Pi (I am using a Raspberry Pi 3 model B+), along wi
 
 ## Setting up Julia
 
-In your Raspbian commmand line, simply run:
+In your __Raspbian commmand line__, simply run:
 
 ```
 sudo apt install julia
 ```
 
-Then, run this to enter the Julia REPL
+Then, run this to enter the __Julia REPL__
 ```
 julia
 ```
-now run the following commands to install the PiGPIO library:
+now run the following commands to install the __PiGPIO__ library:
 
 ```
 using Pkg
@@ -26,6 +26,7 @@ You should now be ready to start with the circuit
 
 ## Building the Circuit
 
-connect the cathode of both the LEDs to the ground rail of the breadboard. Connect the anode, via an appropriate resistor (I used 82 ohm) to GPIO pins 2 and 3 of the Raspberry Pi.
+connect the __cathode__ of both the LEDs to the __ground rail__ of the breadboard. Connect the __anode__, via an appropriate resistor (I used 82 ohm) to __GPIO pins 2 and 3__ of the Raspberry Pi.
 
 #### circuit diagram for reference: 
+
