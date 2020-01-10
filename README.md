@@ -32,9 +32,7 @@ You should now be ready to start with the circuit
 connect the __cathode__ of both the LEDs to the __ground rail__ of the breadboard. Connect the __anode__, via an appropriate resistor (I used 82 ohm) to __GPIO pins 2 and 3__ of the Raspberry Pi.
 
 ### circuit diagram for reference: 
-<circuit diagram>
 
-<circuit pic>
  
 You are now ready to launch Julia and start coding. PiGPIO.jl should be installed by now.
 
@@ -75,8 +73,4 @@ end
 You should be getting blinking LEDs when you run this code. 
 
 ### pictures of the final working model: 
-
-<pic>
- <pic>
-  <vid>
 
