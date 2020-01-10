@@ -78,4 +78,4 @@ You should be getting blinking LEDs when you run this code.
 
 ![](pic2.jpg)
 
-![](pic3.jpg)
+![](pic4.jpg)
