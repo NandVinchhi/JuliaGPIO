@@ -41,11 +41,14 @@ You are now ready to launch Julia and start coding. PiGPIO.jl should be installe
 ## The Code
 You can run this code through an __external text editor__ or in the __Julia REPL__ itself.
 First we need to import the package with the __using__ keyword. Next, we need to initialize the Raspberry Pi by creating an object variable and initialising it to __Pi()__
+
 ```Julia
 using PiGPIO
 pi = Pi()
 ```
+
 Next, we need to intitialize the GPIO pins and their state (__INPUT/OUTPUT__ --> in this case __OUTPUT__).
+
 ```Julia
 pin1 = 2 # GPIO pin 2
 pin2 = 3 # GPIO pin 3
@@ -54,7 +57,9 @@ set_mode(pi, pin1, PiGPIO.OUTPUT)
 set_mode(pi, pin2, PiGPIO.OUTPUT)
 # ^ initialization
 ```
+
 Now we shall use a for loop to implement the blinking LEDs
+
 ```Julia
 num_loops = 20 # The number of times you want the lights to blink. implement using while for infinite loop.
 for i = 1:num_loops
@@ -66,6 +71,7 @@ for i = 1:num_loops
     sleep(1)
 end
 ```
+
 You should be getting blinking LEDs when you run this code. 
 
 ### pictures of the final working model: 
