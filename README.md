@@ -33,7 +33,8 @@ connect the __cathode__ of both the LEDs to the __ground rail__ of the breadboar
 
 ### circuit diagram for reference: 
 
- 
+![](circuit.png) 
+
 You are now ready to launch Julia and start coding. PiGPIO.jl should be installed by now.
 
 ## The Code
@@ -73,4 +74,8 @@ end
 You should be getting blinking LEDs when you run this code. 
 
 ### pictures of the final working model: 
+![](pic1.jpg)
 
+![](pic2.jpg)
+
+![](pic3.jpg)
