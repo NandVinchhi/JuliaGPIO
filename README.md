@@ -60,7 +60,7 @@ set_mode(pi, pin2, PiGPIO.OUTPUT)
 Now we shall use a for loop to implement the blinking LEDs
 
 ```Julia
-num_loops = 20 # The number of times you want the lights to blink. implement using while for infinite loop.
+num_loops = 20 # The number of times you want the lights to blink. 
 for i = 1:num_loops
     PiGPIO.write(pi, pin1, HIGH) # setting GPIO pin state
     PiGPIO.write(pi, pin2, LOW)
