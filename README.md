@@ -1,37 +1,7 @@
-## Welcome to GitHub Pages
+## Overview
+Via this tutorial, we shall be going over the entire process of installation and use of the Julia Programming language on a Raspberry Pi. We will be using the [PiGPIO.jl](https://github.com/JuliaBerry/PiGPIO.jl) library for controlling GPIO elements (namely LEDs). 
 
-You can use the [editor on GitHub](https://github.com/NandVinchhi/JuliaGPIO/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## What you'll need
+You will require a Raspberry Pi (I am using a Raspberry Pi 3 model B+), along with the standard peripherals(keyboard, mouse, display, power supply), 1 breadboard, 2 resistors, 2 LEDs and jumper wires. I am assuming that you have the Raspbian OS set up and running on the Raspberry Pi. If not, take a look at [this tutorial.](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/NandVinchhi/JuliaGPIO/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+##
